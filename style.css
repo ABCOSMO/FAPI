@@ -141,10 +141,16 @@ nav {
     color: var(--cor-secundaria);
     text-align: justify;
     margin-top: 8vh;
-    margin-left: 11vh;
+    margin-left: 0;/*11vh;*/
     width: 25rem;
     border-radius: 4vh;  
     padding: 3vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .rodape {
@@ -152,8 +158,6 @@ nav {
     font-size: 12px;
     font-weight: 700;
     color: var(--cor-secundaria);
-    text-align: center;
-    height: 20%;
     padding: 10vh 0;
 }
 
