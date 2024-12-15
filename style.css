@@ -19,7 +19,6 @@ body {
     background-color: var(--cor-quarta);
     height: 100vh;
     background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 .container__links {
@@ -29,7 +28,7 @@ body {
 
 nav {
     margin: 2%;
-    height: 20vh;
+    height: 20%;
 }
 
 .links a {
@@ -86,9 +85,13 @@ nav {
 }
 
 .container__botao {
-    display: grid;
+    /*display: grid;
     grid-template-columns: 30% 40% 30%;
-    height: 65vh;
+    height: 65vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
 }
 
 .container__margem{
@@ -150,6 +153,8 @@ nav {
     font-weight: 700;
     color: var(--cor-secundaria);
     text-align: center;
+    height: 20%;
+    padding: 10vh 0;
 }
 
 dialog::backdrop {
